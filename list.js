@@ -3,7 +3,7 @@ const bullet = document.getElementById("bullet");
 
 function addTask(){
     if(searchInput.value === ''){
-        alert('Input a valid entry.');
+        alert('Please enter a valid input.');
     }
     else{
         let li = document.createElement('li');
